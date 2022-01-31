@@ -1,0 +1,137 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @font-face {
+        font-family: "Exo2";
+        src: url(Exo2.ttf) format('truetype');
+      }
+
+      @media (min-width: 481px) {
+        .phone-img {
+          transform: scale(1.7);
+          padding-top: 50px;
+        }
+      }
+
+      .social-medias {
+        text-align: center;
+      }
+      .social-icon {
+        display: inline-block;
+        width: 41px;
+        height: 30px;
+        margin: 0 1%;
+      }
+      .export-wrapper {
+        width: 90%;
+      }
+
+      .footer {
+        width: 100%;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="grey" width="700px">
+    <mj-section full-width="full-width">
+      <mj-column width="100%">
+        <mj-image src="logo.png" width="120px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section full-width="full-width" background-color="white" border-radius="15px 15px 0px 0px" padding="50px 0px 30px">
+      <mj-column width="100%">
+        <mj-text font-size="36px" line-height="36.9px" color="#1C4154" font-family="Exo2" font-weight="900" padding="0px 25px">
+          Обзор обновленной <br>версии конструктора<br> <span style="color: #0CC863;">форм обратной связи</span>
+        </mj-text>
+        </mg-column>
+    </mj-section>
+
+    <mj-section background-color="white" full-width="full-width" padding="0px">
+      <mj-column width="100%">
+        <mj-text font-size="30px" line-height="36.9px" color="#0CC863" font-family="Exo2" font-weight="700" padding-bottom="0px">
+          Что нового?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" full-width="full-width">
+      <mj-column width="50%">
+        <mj-image src="feature1.png" padding="0px 25px"></mj-image>
+        <mj-text align="center" font-family="Exo2" font-weight="600" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Настраивайте внешний вид полей в разделе Дизайн</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="feature2.png" padding="0px 25px"></mj-image>
+        <mj-text align="center" font-family="Exo2" font-weight="600" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Создавайте квизы</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" full-width="full-width">
+      <mj-column width="50%">
+        <mj-image src="feature3.png" padding="0px 25px"></mj-image>
+        <mj-text align="center" font-family="Exo2" font-weight="600" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Экспортируйте заявки в Exel</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="feature4.png" padding="0px 25px"></mj-image>
+        <mj-text align="center" font-family="Exo2" font-weight="600" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Применяйте свои стили к формам</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" full-width="full-width" padding="10px 0px 0px">
+      <mj-column>
+        <mj-text align="center" font-family="Exo2" font-weight="500" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Еще больше нового функционала<br> с описанием при переходе по кнопке</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" full-width="full-width" padding="30px 0px 65px">
+      <mj-column>
+        <mj-image src="button.png" width="226px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper background-color="white" full-width="full-width" padding="0px 0px 30px">
+      <mj-section background-color="#ffffff" background-url="bubbles.png" background-repeat="no-repeat" background-size="cover" border-radius="15px" padding="20px 0px" css-class="export-wrapper">
+        <mj-column width="65%">
+          <mj-text color="#ffffff" align="left" font-family="Exo2" font-weight="900" font-size="30px" line-height="30px" font-style="normal" padding="0px 25px 5px">
+            А вы провели экспорт </br> данных ?
+          </mj-text>
+          <mj-text color="#ffffff" align="left" font-family="Exo2" font-weight="500" font-size="18px" line-height="25.2px" font-style="normal" padding="10px 25px">
+            Поддержка старой версии скоро завершится. Перенесите свои данные и используйте все возможности новой версии
+          </mj-text>
+          <mj-image align="left" src="button2.png" width="226px"></mj-image>
+        </mj-column>
+        <mj-column vertical-align="middle" width="35%">
+          <mj-image css-class="phone-img" src="phone.png" width="300px" fluid-on-mobile="true" padding-top="50px"></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width" padding="0px" background-color="#ffffff">
+      <mj-section background-url="footer.png" background-color="white" background-repeat="no-repeat" background-size="cover" full-width="full-width" border-radius="15px" css-class="footer">
+        <mj-column width="100%">
+          <mj-image src="cat.png" width="220px"></mj-image>
+        </mj-column>
+        <mj-column width="100%">
+          <mj-raw>
+          <div class="social-medias">
+            <img style="display: inline-block; margin: 0 1%" src="vk.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="fb.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="inst-ru.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="inst-en.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="twitter.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="youtube.png" width="40px" />
+            </div>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section background-color="white" full-width="full-width">
+      <mj-column>
+        <mj-text color="#666666" align="center" font-family="Exo2" font-weight="500" font-size="13px" line-height="13.31px" font-style="normal">
+          Вы получили это письмо, потому что вы подписаны на рассылку QForm. Мы уважаем Ваш выбор.
+          Чтобы настроить вашу подписку или отписаться, <a style="color: inherit; text-decoration: underline">нажмите здесь</a>
+        </mj-text>
+      </mj-column>
+      </mj-section>
+  </mj-body>
+</mjml>

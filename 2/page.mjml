@@ -1,0 +1,102 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @font-face {
+        font-family: "Exo2";
+        src: url(Exo2.ttf) format('truetype');
+      }
+
+       .social-medias {
+        text-align: center;
+      }
+      .social-icon {
+        display: inline-block;
+        width: 41px;
+        height: 30px;
+        margin: 0 1%;
+      }
+      .export-wrapper {
+        width: 90%;
+      }
+
+      .footer {
+        width: 100%;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="grey" width="700px">
+
+   <mj-section full-width="full-width">
+      <mj-column width="100%">
+        <mj-image src="logo.png" width="120px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section full-width="full-width" background-color="white" border-radius="15px 15px 0px 0px" padding="50px 0px 0px">
+      <mj-column width="100%" padding="0px">
+        <mj-text font-size="36px" line-height="36px" color="#1C4154" font-family="Exo2" font-weight="900" padding="0px 28px 30px">
+          Продуктовая команда<br> начинается с людей!
+        </mj-text>
+        </mg-column>
+    </mj-section>
+
+    <mj-section background-color="white" full-width="full-width" padding="0px">
+        <mj-column width="60%">
+        <mj-text color="#000000" align="left" font-family="Exo2" font-weight="400" font-size="18px" line-height="25.2px" font-style="normal" padding="10px 28px 50px">
+Сегодня расскажем о том, насколько у компании Web-строитель многоролевая продуктовая команда, как организована ее работа, где все члены команды максимально вовличены в процесс 
+          </mj-text>
+        </mj-column>
+        <mj-column width="40%">
+            <mj-image  src="puzzle.png" padding="0px"/>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" full-width="full-width" padding="0px 0px 36px">
+    <mj-column>
+        <mj-image src="team.png"/>
+    </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" full-width="full-width" padding="0px 0px 36px">
+    <mj-column>
+    <mj-image src="button.png" width="226px"padding="0px"/>
+    </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" full-width="full-width" padding="0px 0px 36px">
+    <mj-column>
+    <mj-image src="dev.png" />
+    </mj-column>
+    </mj-section>
+
+    <mj-wrapper full-width="full-width" padding="0px" background-color="#ffffff">
+      <mj-section background-url="footer.png" background-color="white" background-repeat="no-repeat" background-size="cover" full-width="full-width" border-radius="15px" css-class="footer">
+        <mj-column width="100%">
+          <mj-image src="cat.png" width="220px"></mj-image>
+        </mj-column>
+        <mj-column width="100%">
+          <mj-raw>
+          <div class="social-medias">
+            <img style="display: inline-block; margin: 0 1%" src="vk.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="fb.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="inst-ru.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="inst-en.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="twitter.png" width="40px" />
+            <img style="display: inline-block; margin: 0 1%" src="youtube.png" width="40px" />
+            </div>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section background-color="white" full-width="full-width">
+      <mj-column>
+        <mj-text color="#666666" align="center" font-family="Exo2" font-weight="500" font-size="13px" line-height="13.31px" font-style="normal">
+          Вы получили это письмо, потому что вы подписаны на рассылку QForm. Мы уважаем Ваш выбор.
+          Чтобы настроить вашу подписку или отписаться, <a style="color: inherit; text-decoration: underline">нажмите здесь</a>
+        </mj-text>
+      </mj-column>
+      </mj-section>
+
+
+  </mj-body>
