@@ -17,12 +17,14 @@
       .social-medias {
         text-align: center;
       }
+
       .social-icon {
         display: inline-block;
         width: 41px;
         height: 30px;
         margin: 0 1%;
       }
+
       .export-wrapper {
         width: 90%;
       }
@@ -32,14 +34,14 @@
       }
     </mj-style>
   </mj-head>
-  <mj-body background-color="grey" width="700px">
+  <mj-body background-color="#F3F3F4" width="700px">
     <mj-section full-width="full-width">
       <mj-column width="100%">
         <mj-image src="https://i.ibb.co/pKHkSNY/logo.png" width="120px"></mj-image>
       </mj-column>
     </mj-section>
 
-    <mj-section full-width="full-width" background-color="white" border-radius="15px 15px 0px 0px" padding="50px 0px 30px">
+    <mj-section background-color="white" border-radius="15px 15px 0px 0px" padding="50px 0px 30px">
       <mj-column width="100%">
         <mj-text font-size="36px" line-height="36.9px" color="#1C4154" font-family="Exo 2" font-weight="900" padding="0px 25px">
           Обзор обновленной <br>версии конструктора<br> <span style="color: #0CC863;">форм обратной связи</span>
@@ -113,13 +115,13 @@
         </mj-column>
         <mj-column width="100%">
           <mj-raw>
-          <div class="social-medias">
-            <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/TBDm7D7/vk.png" width="40px" />
-            <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/QCmD9ZP/fb.png" width="40px" />
-            <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/1XhHggQ/Inst-ru.png" width="40px" />
-            <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/dLtY1CD/Inst-en.png" width="40px" />
-            <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/K9fS1K2/twitter.png" width="40px" />
-            <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/qR448n7/youtube.png" width="40px" />
+            <div class="social-medias">
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/TBDm7D7/vk.png" width="40px" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/QCmD9ZP/fb.png" width="40px" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/1XhHggQ/Inst-ru.png" width="40px" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/dLtY1CD/Inst-en.png" width="40px" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/K9fS1K2/twitter.png" width="40px" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/qR448n7/youtube.png" width="40px" />
             </div>
           </mj-raw>
         </mj-column>
@@ -133,6 +135,6 @@
           Чтобы настроить вашу подписку или отписаться, <a style="color: inherit; text-decoration: underline">нажмите здесь</a>
         </mj-text>
       </mj-column>
-      </mj-section>
+    </mj-section>
   </mj-body>
 </mjml>
