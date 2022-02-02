@@ -109,13 +109,13 @@
     </mj-wrapper>
 
     <mj-wrapper full-width="full-width" padding="0px" background-color="#ffffff">
-      <mj-section background-url="footer.png" background-color="white" background-repeat="no-repeat" background-size="cover" full-width="full-width" border-radius="15px" css-class="footer">
+      <mj-section background-url="https://i.ibb.co/SK8jxKJ/footer.png" background-color="white" background-repeat="no-repeat" background-size="cover" full-width="full-width" border-radius="15px" css-class="footer">
         <mj-column width="100%">
           <mj-image src="https://i.ibb.co/x5KKHKm/cat.png" width="220px" alt="Подписывайтесь на соцсети и следите за обновлениями"></mj-image>
         </mj-column>
         <mj-column width="100%">
           <mj-raw>
-            <div class="social-medias">
+            <div class="social-medias" style="text-align: center;">
               <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/TBDm7D7/vk.png" width="40px" alt="VKontakte" />
               <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/QCmD9ZP/fb.png" width="40px" alt="Facebook" />
               <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/1XhHggQ/Inst-ru.png" width="40px" alt="Instagram-RU" />
