@@ -37,7 +37,7 @@
   <mj-body background-color="#F3F3F4" width="700px">
     <mj-section full-width="full-width">
       <mj-column width="100%">
-        <mj-image src="https://i.ibb.co/pKHkSNY/logo.png" width="120px"></mj-image>
+        <mj-image src="https://i.ibb.co/pKHkSNY/logo.png" width="120px" alt="Логотип QForm"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -59,22 +59,22 @@
 
     <mj-section background-color="white" full-width="full-width">
       <mj-column width="50%">
-        <mj-image src="https://i.ibb.co/rHb53m0/feature1.png" padding="0px 25px"></mj-image>
+        <mj-image src="https://i.ibb.co/rHb53m0/feature1.png" padding="0px 25px" alt="Дизайнер"></mj-image>
         <mj-text align="center" font-family="Exo 2" font-weight="600" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Настраивайте внешний вид полей в разделе Дизайн</mj-text>
       </mj-column>
       <mj-column width="50%">
-        <mj-image src="https://i.ibb.co/sVYxwrW/feature2.png" padding="0px 25px"></mj-image>
+        <mj-image src="https://i.ibb.co/sVYxwrW/feature2.png" padding="0px 25px" alt="Квизы"></mj-image>
         <mj-text align="center" font-family="Exo 2" font-weight="600" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Создавайте квизы</mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section background-color="white" full-width="full-width">
       <mj-column width="50%">
-        <mj-image src="https://i.ibb.co/YQ0DRtJ/feature3.png" padding="0px 25px"></mj-image>
-        <mj-text align="center" font-family="Exo 2" font-weight="600" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Экспортируйте заявки в Exel</mj-text>
+        <mj-image src="https://i.ibb.co/YQ0DRtJ/feature3.png" padding="0px 25px" alt="Экспорт в Excel"></mj-image>
+        <mj-text align="center" font-family="Exo 2" font-weight="600" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Экспортируйте заявки в Exсel</mj-text>
       </mj-column>
       <mj-column width="50%">
-        <mj-image src="https://i.ibb.co/khWQBbY/feature4.png" padding="0px 25px"></mj-image>
+        <mj-image src="https://i.ibb.co/khWQBbY/feature4.png" padding="0px 25px" alt="Стили формы"></mj-image>
         <mj-text align="center" font-family="Exo 2" font-weight="600" font-size="18px" line-height="25.2px" font-style="normal" padding="0px 25px">Применяйте свои стили к формам</mj-text>
       </mj-column>
     </mj-section>
@@ -87,7 +87,7 @@
 
     <mj-section background-color="white" full-width="full-width" padding="30px 0px 65px">
       <mj-column>
-        <mj-image src="https://i.ibb.co/ncZhfm6/button.png" width="226px"></mj-image>
+        <mj-image src="https://i.ibb.co/ncZhfm6/button.png" width="226px" alt="Подробнее о новом функционале"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -100,10 +100,10 @@
           <mj-text color="#ffffff" align="left" font-family="Exo 2" font-weight="500" font-size="18px" line-height="25.2px" font-style="normal" padding="10px 25px">
             Поддержка старой версии скоро завершится. Перенесите свои данные и используйте все возможности новой версии
           </mj-text>
-          <mj-image align="left" src="https://i.ibb.co/Pg1Mxmq/button2.png" width="226px"></mj-image>
+          <mj-image align="left" src="https://i.ibb.co/Pg1Mxmq/button2.png" width="226px" alt="К инструкции"></mj-image>
         </mj-column>
         <mj-column vertical-align="middle" width="35%">
-          <mj-image css-class="phone-img" src="phone.png" width="300px" fluid-on-mobile="true" padding-top="50px"></mj-image>
+          <mj-image css-class="phone-img" src="https://i.ibb.co/pP0RGyJ/phone.png" width="300px" fluid-on-mobile="true" padding-top="50px" alt="Мобильный телефон"></mj-image>
         </mj-column>
       </mj-section>
     </mj-wrapper>
@@ -111,17 +111,17 @@
     <mj-wrapper full-width="full-width" padding="0px" background-color="#ffffff">
       <mj-section background-url="footer.png" background-color="white" background-repeat="no-repeat" background-size="cover" full-width="full-width" border-radius="15px" css-class="footer">
         <mj-column width="100%">
-          <mj-image src="https://i.ibb.co/x5KKHKm/cat.png" width="220px"></mj-image>
+          <mj-image src="https://i.ibb.co/x5KKHKm/cat.png" width="220px" alt="Подписывайтесь на соцсети и следите за обновлениями"></mj-image>
         </mj-column>
         <mj-column width="100%">
           <mj-raw>
             <div class="social-medias">
-              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/TBDm7D7/vk.png" width="40px" />
-              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/QCmD9ZP/fb.png" width="40px" />
-              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/1XhHggQ/Inst-ru.png" width="40px" />
-              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/dLtY1CD/Inst-en.png" width="40px" />
-              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/K9fS1K2/twitter.png" width="40px" />
-              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/qR448n7/youtube.png" width="40px" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/TBDm7D7/vk.png" width="40px" alt="VKontakte" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/QCmD9ZP/fb.png" width="40px" alt="Facebook" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/1XhHggQ/Inst-ru.png" width="40px" alt="Instagram-RU" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/dLtY1CD/Inst-en.png" width="40px" alt="Instagram-EN" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/K9fS1K2/twitter.png" width="40px" alt="Twitter" />
+              <img style="display: inline-block; margin: 0 1%" src="https://i.ibb.co/qR448n7/youtube.png" width="40px" alt="YouTube" />
             </div>
           </mj-raw>
         </mj-column>
