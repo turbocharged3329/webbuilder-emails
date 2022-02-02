@@ -14,6 +14,16 @@
         font-family: 'Exo 2', sans-serif;
       }
 
+      .header__title {
+        font-size: 36px !important;
+        line-height: 36.9px !important;
+      }
+
+      .header__subtitle {
+        font-size: 30px !important;
+        line-height: 28px !important;
+      }
+
       .social-medias {
         text-align: center;
       }
@@ -43,7 +53,7 @@
 
     <mj-section background-color="white" border-radius="15px 15px 0px 0px" padding="50px 0px 30px">
       <mj-column width="100%">
-        <mj-text font-size="36px" line-height="36.9px" color="#1C4154" font-family="Exo 2" font-weight="900" padding="0px 25px">
+        <mj-text css-class="header__title" font-size="30px" line-height="31px" color="#1C4154" font-family="Exo 2" font-weight="900" padding="0px 25px">
           Обзор обновленной <br>версии конструктора<br> <span style="color: #0CC863;">форм обратной связи</span>
         </mj-text>
         </mg-column>
@@ -51,7 +61,7 @@
 
     <mj-section background-color="white" full-width="full-width" padding="0px">
       <mj-column width="100%">
-        <mj-text font-size="30px" line-height="36.9px" color="#0CC863" font-family="Exo 2" font-weight="700" padding-bottom="0px">
+        <mj-text css-class="header__subtitle" font-size="28px" line-height="27px" color="#0CC863" font-family="Exo 2" font-weight="700" padding-bottom="0px">
           Что нового?
         </mj-text>
       </mj-column>
